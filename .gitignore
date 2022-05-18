@@ -1,0 +1,6 @@
+mounts/config.js
+mounts/backups/*
+mounts/logs/*
+mounts/nginx/*
+.env
+.DS_Store

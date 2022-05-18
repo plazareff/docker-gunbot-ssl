@@ -1,0 +1,8 @@
+# Your host fully qualified domain name
+HOST_FQDN=my_domain_name.com
+
+# Contact e-mail for Let's Encrypt SSL certificates
+HOST_EMAIL=my_address@email.com
+
+# Time Zone
+HOST_TIMEZONE=Europe/Berlin
