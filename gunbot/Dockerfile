@@ -14,7 +14,7 @@ RUN apt-get -y update && \
 
 ## Install additional libraries and upgrade
 RUN apt-get -y upgrade && \
- apt-get install -y unzip curl sqlite fontconfig fonts-dejavu-extra ca-certificates && \
+ apt-get install -y unzip curl fontconfig fonts-dejavu-extra ca-certificates && \
  apt-get clean -y && \
  apt-get autoclean -y && \
  apt-get autoremove -y
